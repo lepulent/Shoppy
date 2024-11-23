@@ -17,5 +17,5 @@
 
   **How to Access**: Click the link to start using Shoppy: [👉 Launch Shoppy App](https://shoppy.streamlit.app/)
   
-  **Contact**: For support or feedback, email at [support@shoppy.com](varunsaikanuri@gmail.com)
+  **Contact**: For support or feedback, email at varunsaikanuri@gmail.com
   
