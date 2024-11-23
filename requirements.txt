@@ -1,0 +1,8 @@
+streamlit
+Pillow
+sqlite3
+langchain
+langchain-core
+langchain-community
+langchain_google_genai
+langgraph
