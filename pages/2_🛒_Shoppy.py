@@ -23,7 +23,7 @@ import uuid
 db="salesorders.db"
 APP_TITLE="Shoppy"
 APP_ICON="🛒"
-img=Image.open(r"images/men_5.jpg").resize((300,300), Image.ANTIALIAS)
+img=Image.open(r"images/men_5.jpg").resize((300,300), Image.Resampling.LANCZOS)
 img2=Image.open(r"images/bot_3.jpg")
 st.set_page_config(page_title=APP_TITLE,page_icon=APP_ICON)
 
