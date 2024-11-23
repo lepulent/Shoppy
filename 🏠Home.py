@@ -7,8 +7,7 @@ APP_ICON="🛒"
 st.set_page_config(page_title=APP_TITLE,page_icon=APP_ICON)
 st.session_state.previous=[]
 
-img2=Image.open(r"C:\Users\Varun Sai Kanuri\Downloads\bot_3.jpg")
-home=Image.open("C:\\Users\\Varun Sai Kanuri\\Downloads\\home1.png")
+home=Image.open(r"images/home1.png")
 
 with st.sidebar:
     st.caption("Made with :material/favorite: by [Varun](https://www.linkedin.com/in/varun-sai-kanuri-089b34226/)")
