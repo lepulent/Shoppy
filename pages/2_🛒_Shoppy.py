@@ -23,8 +23,8 @@ import uuid
 db="salesorders.db"
 APP_TITLE="Shoppy"
 APP_ICON="🛒"
-img=Image.open(r"C:\Users\Varun Sai Kanuri\Downloads\men_5.jpg").resize((300,300), Image.ANTIALIAS)
-img2=Image.open(r"C:\Users\Varun Sai Kanuri\Downloads\bot_3.jpg")
+img=Image.open(r"images/men_5.jpg").resize((300,300), Image.ANTIALIAS)
+img2=Image.open(r"images/bot_3.jpg")
 st.set_page_config(page_title=APP_TITLE,page_icon=APP_ICON)
 
 
@@ -58,7 +58,7 @@ try:
 
     if user_data is not None:
         if user_data[0]=="Tanya":
-            img=Image.open(r"C:\Users\Varun Sai Kanuri\Downloads\User_5.jpg")
+            img=Image.open(r"images/user_5.jpg")
             
 except:
     st.info("Please log in as a guest to start chatting with Shoppy and explore all its features! 😊")
