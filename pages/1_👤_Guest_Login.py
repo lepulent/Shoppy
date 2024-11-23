@@ -11,9 +11,9 @@ st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
 profile_image_left_url=r"images/user_5.jpg"
 profile_image_right_url=r"images/men_5.jpg"
 profile_image_left=Image.open(profile_image_left_url)
-img1=profile_image_left.resize((250, 300), Image.ANTIALIAS)
+img1=profile_image_left.resize((250, 300), Image.Resampling.LANCZOS)
 profile_image_right=Image.open(profile_image_right_url)
-img2=profile_image_right.resize((250, 300), Image.ANTIALIAS)
+img2=profile_image_right.resize((250, 300), Image.Resampling.LANCZOS)
 
 st.markdown(f"""# {'Guest Login'}""",unsafe_allow_html=True)
 # st.caption("🚀 Your Personal Shopping Assistant, Built with LangGraph and Streamlit, Ready to Help 24/7")
