@@ -8,8 +8,8 @@ PAGE_TITLE="Guest Login"
 PAGE_ICON="👤"
 
 st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON)
-profile_image_left_url=r"C:\Users\Varun Sai Kanuri\Downloads\User_5.jpg"
-profile_image_right_url=r"C:\Users\Varun Sai Kanuri\Downloads\men_5.jpg"
+profile_image_left_url=r"images/user_5.jpg"
+profile_image_right_url=r"images/men_5.jpg"
 profile_image_left=Image.open(profile_image_left_url)
 img1=profile_image_left.resize((250, 300), Image.ANTIALIAS)
 profile_image_right=Image.open(profile_image_right_url)
