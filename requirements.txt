@@ -1,6 +1,5 @@
 streamlit
 Pillow
-sqlite
 langchain
 langchain-core
 langchain-community
