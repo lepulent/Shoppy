@@ -9,7 +9,6 @@ import os
 from PIL import Image
 import streamlit as st
 from datetime import date, datetime, timedelta
-from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import Runnable, RunnableConfig, RunnableLambda
 from langchain_core.messages import ToolMessage, HumanMessage
